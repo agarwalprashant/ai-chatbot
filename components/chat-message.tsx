@@ -10,7 +10,8 @@ import { CodeBlock } from '@/components/ui/codeblock'
 import { MemoizedReactMarkdown } from '@/components/markdown'
 import { IconOpenAI, IconUser } from '@/components/ui/icons'
 import { ChatMessageActions } from '@/components/chat-message-actions'
-
+import 'katex/dist/katex.min.css'
+import Latex from 'react-latex-next'
 export interface ChatMessageProps {
   message: Message
 }

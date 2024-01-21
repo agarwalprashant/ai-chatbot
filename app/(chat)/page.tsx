@@ -3,6 +3,13 @@ import { Chat } from '@/components/chat'
 
 export default function IndexPage() {
   const id = nanoid()
+  console.log('id:', id)
+  console.log(new Date().toISOString())
+  console.log("hi there");
 
-  return <Chat id={id} />
+  return (<>
+    <h1>Hi there</h1>
+    <Chat id={id} />
+  </>
+  )
 }
